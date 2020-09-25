@@ -3,28 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 } 
-header{
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
 .navbar{
-    display: grid;
-    grid-template-columns: 3fr 0.5fr 0.5fr;
-    grid-template-rows: 30px 50px;
-    grid-template-areas: 
-    "content search menu"
-    "nav-msg nav-msg nav-msg";
+    height: 60px;
 }
-
+.search-navbar{
+    height: 30px;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
 .main-cont{
-    grid-area: content;
+    width: 80%;
 }
-.sch-bt{
-    grid-area: search;
+.sch-bt{  
+    width: 10%;
 }
 .menu{
-    grid-area: menu;
+    width: 10%;
 }
 .btn-prop{
     background-color: transparent;
@@ -37,14 +35,16 @@ header{
     color: red;
 }
 .under-nav-msg{
-    grid-area: nav-msg;
-    font-size: 3vw;
     display: flex;
-    gap: 5px;
     justify-content: center;
-    align-self: center;
-    padding: 20px;
-    background: #fd3;  
+    font-size: 3vw;
+    padding: 14px;
+    background-color: #fd3;
+    margin-top: 7%;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    gap: 7px;
 }
 .nav-img{
     background-image: url(images/tnw.png);
@@ -55,9 +55,10 @@ header{
     width: 20%;
     position: fixed;
     top: 0;
-    z-index: 3;
-
+    z-index: 2;
 }
+
+
     .grid-1{
         display: grid;
         grid-template-columns: 1fr;
