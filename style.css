@@ -166,6 +166,10 @@
         grid-area: img1;
         background-image: url(images/lts-1.png);
     }
+    .lts-9{
+        grid-area: img1;
+        background-image: url(images/lts-9.jpg);
+    }
     .img-prop{
         height: 100px;
         background-position: center;
@@ -189,6 +193,10 @@
         grid-area: img2;
         background-image: url(images/lts-2.png);     
     }
+.lts-10{
+    grid-area: img2;
+    background-image: url(images/lts-10.jpg);     
+}
     .cnt2{
         grid-area: text2;
     }
@@ -201,6 +209,10 @@
     .lts-3{
         grid-area: img3;
         background-image: url(images/lts-3.png);      
+    }
+    .lts-11{
+        grid-area: img3;
+        background-image: url(images/lts-11.jpg);      
     }
     .cnt3{
         grid-area: text3;
@@ -215,6 +227,10 @@
         grid-area: img4;
         background-image: url(images/lts-4.png);    
     }
+    .lts-12{
+        grid-area: img4;
+        background-image: url(images/lts-12.jpg);    
+    }
     .cnt4{
         grid-area: text4;
     }
@@ -227,6 +243,10 @@
     .lts-5{
         grid-area: img5;
         background-image: url(images/lts-5.png);
+    }
+    .lts-13{
+        grid-area: img5;
+        background-image: url(images/lts-13.jpg);    
     }
     .cnt5{
         grid-area: text5;
@@ -242,6 +262,10 @@
         grid-area: img6;
         background-image: url(images/lts-6.png);       
     }
+    .lts-14{
+        grid-area: img6;
+        background-image: url(images/lts-14.jpg);    
+    }
     .cnt6{
         grid-area: text6;      
     }
@@ -255,6 +279,10 @@
         grid-area: img7;
         background-image: url(images/lts-7.png);
     }
+    .lts-15{
+        grid-area: img7;
+        background-image: url(images/lts-15.jpg);    
+    }
     .cnt7{
         grid-area: text7;
     }
@@ -267,6 +295,10 @@
     .lts-8{
         grid-area: img8;
         background-image: url(images/lts-8.png);      
+    }
+    .lts-16{
+        grid-area: img8;
+        background-image: url(images/lts-16.jpg);    
     }
     .cnt8{
         grid-area: text8;
