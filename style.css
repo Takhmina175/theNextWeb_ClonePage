@@ -36,11 +36,14 @@
         border: 1px solid #ecf0f1;       
     }
     .logo{
+        background-image: url(images/tnw.png);
+        height: 40px;
         display: block;
-        height: inherit;
         left: 0;
         top: 0;
         width: 31%;
+        background-position: center;
+        background-size: cover;
     }
     .corona-warnings{
         height: inherit;
@@ -161,6 +164,8 @@
     }
     .lts-news{
         grid-area: lts-nw;
+        display: flex;
+        justify-content: space-between;
     }
     .lts-1{
         grid-area: img1;
