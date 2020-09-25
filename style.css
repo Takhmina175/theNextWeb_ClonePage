@@ -3,73 +3,62 @@
     padding: 0;
     box-sizing: border-box;
 } 
-    .navbar{
-        background: #fefefe;
-        height: 40px;
-        left: 0;
-        position: fixed;
-        right: 0;
-        top: 0;
-        z-index: 1;
-    }
-    .container{
-        display: grid;
-        grid-template-columns: 2fr 0.3fr 0.3fr;
-        grid-template-rows: auto;
-        height: inherit;
-        position: fixed;
-        top: 0;
-        width: 100%;
-    }
-    .emp-space{
-        grid-column: 1;
-    }
-    .searc-bt{
-        grid-column: 2;
-    }
-    .menu{
-        grid-column: 3;
-    }
-    .nv-items-width{
-        width: 103%;
-        justify-self: start;
-        border: 1px solid #ecf0f1;       
-    }
-    .logo{
-        background-image: url(images/tnw.png);
-        height: 40px;
-        display: block;
-        left: 0;
-        top: 0;
-        width: 31%;
-        background-position: center;
-        background-size: cover;
-    }
-    .corona-warnings{
-        height: 55px;
-        background-color: #ffdd33;
-        display: flex;
-        font-size: 100%;
-        justify-content: center;
-        align-items: center;
-        gap: 1%;
-        position: sticky;
-        top: 7%;
-        z-index: 2;
-    }
-    .wn-text{
-        margin-left: 1%;
-    }
-    .arrow{
-        width: 3%;
-        gap: 2%;
-    }
-    .bck-color{
-        background-color:transparent;
-        border-bottom: none;
-    } 
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 3fr 0.5fr 0.5fr;
+    grid-template-rows: 30px 50px;
+    grid-template-areas: 
+    "content search menu"
+    "nav-msg nav-msg nav-msg";
+}
+
+.main-cont{
+    grid-area: content;
+}
+.sch-bt{
+    grid-area: search;
+}
+.menu{
+    grid-area: menu;
+}
+.btn-prop{
+    background-color: transparent;
+    border: 1px solid #e9e9e9;
+}
+.color-1{
+    color: #555;
+}
+.color-2{
+    color: red;
+}
+.under-nav-msg{
+    grid-area: nav-msg;
+    font-size: 3vw;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+    background: #fd3;  
+}
+.nav-img{
+    background-image: url(images/tnw.png);
+    height: 35px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20%;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+
+}
     .grid-1{
-        margin-top: 22%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, 2fr);
@@ -132,8 +121,8 @@
     .grid-2{
         margin: 0 2%;
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: repeat(9, 0.5fr);
+        grid-template-columns: 0.6fr 2fr;
+        grid-template-rows: repeat(9, auto);
         column-gap: 2%;
         grid-template-areas:
         "lts-nw lts-nw"
@@ -176,7 +165,7 @@
         background-image: url(images/lts-9.jpg);
     }
     .img-prop{
-        height: 100px;
+        height: 80px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -631,12 +620,14 @@
     grid-row: 1;
     background-color: #131313;
     row-gap: 1%;
-    margin-top: 3%;
 }
 .media{
-    justify-content: space-evenly;
+    justify-content: center;
     list-style-type: none;
     margin-top: 5%;
+}
+.media li{
+    margin-right: 2%;
 }
 .links{
     flex-wrap: wrap;
