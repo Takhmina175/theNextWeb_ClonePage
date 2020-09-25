@@ -633,7 +633,7 @@
 .links{
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 3%;
+    margin-top: 7%;
 }
 .copyright{
     grid-column: 1;
@@ -641,10 +641,14 @@
     background: #000;
     color: #aaa;
     padding: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .ft-cont{
     justify-content: center;
+    width: 207px
 }
 .align-item-center{
     align-items: center;
