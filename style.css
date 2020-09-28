@@ -5,6 +5,7 @@
 } 
 body{
     position: relative;
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 }
 header{
     position: fixed;
@@ -23,7 +24,6 @@ main{
     height: 60px;
     display: flex;
     width: 100%;
-    
     background-color: white;
 }
 .main-cont{
@@ -667,6 +667,14 @@ main{
     padding: 2%;
     border-radius: 50%;
 }
+
+.nav-sections{
+    display: none;
+}
+
+.nav-tnw{
+    display: none;
+}
 /* stylying for tablets and laptops -- bigger screens */
 @media only screen 
   and (min-device-width: 768px)
@@ -720,6 +728,69 @@ main{
 
         .menu{
             display: none;
+        }
+
+        .nav-sections{
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            align-items: center;
+            width: 80%;
+            height: 100%;
+
+        }
+
+        
+
+        .nav-sections > li > a{
+            font-family: Shentox,sans-serif;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #aaa;
+            letter-spacing: .04em;
+            line-height: 1;
+            padding: 18px 10px 0;
+            font-size: 14px;
+            text-decoration: none;
+        }
+
+        .nav-img{
+            order: 3;
+        }
+
+        .nav-tnw{
+            background: #131313;
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            line-height: 32px;
+            max-height: 32px;
+            position: relative;
+            float: left;
+            width: 100%;
+            list-style: none;
+        }
+
+        .nav-tnw li {
+            float: left;
+            position: relative;
+            margin-left: 12px;
+        }
+
+
+        .nav-tnw li:first-child {
+            margin-left: 20px;
+        }
+
+        .nav-tnw li a{
+            color: #fdf8f6;
+            text-decoration: none;
+        }
+
+
+        .nav-company {
+            float: right;
+            padding-right: 20px;
         }
 
 
