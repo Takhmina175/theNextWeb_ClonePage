@@ -3,17 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 } 
-.navbar{
-    height: 60px;
+body{
+    position: relative;
 }
+header{
+    position: fixed;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    z-index: 999;
+
+}
+
+main{
+    margin-top: 100px;
+}
+
 .search-navbar{
-    height: 30px;
+    height: 60px;
     display: flex;
     width: 100%;
-    position: fixed;
-    top: 0;
+    
     background-color: white;
-    z-index: 999;
 }
 .main-cont{
     width: 80%;
@@ -37,56 +48,53 @@
 .under-nav-msg{
     display: flex;
     justify-content: center;
-    font-size: 3vw;
     padding: 14px;
     background-color: #fd3;
-    margin-top: 7%;
-    position: fixed;
+    font-size: 12px;
     width: 100%;
-    z-index: 2;
-    gap: 7px;
 }
 .nav-img{
     background-image: url(images/tnw.png);
-    height: 35px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     width: 20%;
-    position: fixed;
-    top: 0;
-    z-index: 2;
 }
 
 
     .grid-1{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 2fr);
+        grid-template-rows: repeat(2, 3fr);
         grid-template-areas: 
                    "img1"
-                   "img2"
-                   "img3";
+                   "img2";
     }
     .mrg-btm{
         margin-bottom: 2%;
     }
     .col-1-2-3{
-        height: 160px;
+        min-height: 160px;
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        position: relative;
     }
     .coll-1{
         grid-area: img1;
         background-image: url(images/col-1.png);
     }
+    .featured-right{
+        grid-area: img2;
+    }
     .wrap-cont{
     display: inline-grid;
-    margin-top: 18%;
+    position: relative;
+    top: 50%;
     margin-left: 2%;
     color: white;
     width: 95%;
+    
     }
     .time-published::before{
         content: "by Thomas Macaulay";
@@ -111,6 +119,7 @@
         grid-area: img2;
         background-image: url(images/col-2.png);
     }
+
     .coll-2 > .wrap-cont > h3{
         margin-top: 5%;
     }
@@ -658,7 +667,63 @@
     padding: 2%;
     border-radius: 50%;
 }
-@media
+/* stylying for tablets and laptops -- bigger screens */
+@media only screen 
+  and (min-device-width: 768px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .grid-1{
+        display: flex;
+        min-height: 400px;
+
+    }
+
+    .grid-1 > div{
+       min-height: 100%;
+       flex: 2;
+       position: relative;
+    }
+
+    
+
+    .grid-1 > div.featured-right{
+        flex: 1;
+       
+    }
+
+    .grid-1 > div.featured-right > div{
+        height: 50%;
+    }
+
+    .grid-1 .col-1-2-3{
+        height: auto;
+    } 
+
+    .mrg-btm{
+        margin-bottom: 0;
+    }
+
+    .wrap-cont{
+        display: inline-grid;
+        position: absolute;
+        bottom: 5%;
+        margin-left: 2%;
+        color: white;
+        width: 95%;
+        top: auto !important;
+        
+        }
+
+       .featured-right .wrap-cont::after{
+            bottom: 50%;
+        }
+
+        .menu{
+            display: none;
+        }
+
+
+}
 
 
 
