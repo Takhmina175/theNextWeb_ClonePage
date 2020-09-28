@@ -130,21 +130,7 @@ main{
 
     .grid-2{
         margin: 0 2%;
-        display: grid;
-        grid-template-columns: 0.6fr 2fr;
-        grid-template-rows: repeat(9, auto);
-        column-gap: 2%;
-        grid-template-areas:
-        "lts-nw lts-nw"
-        "img1 text1"
-        "img2 text2"
-        "img3 text3"
-        "img4 text4"
-        "img5 text5"
-        "img6 text6"
-        "img7 text7"
-        "img8 text8";
-        row-gap: 1%;
+        
         margin-bottom: 20%;    
     }
     .container-1{
@@ -675,15 +661,29 @@ main{
 .nav-tnw{
     display: none;
 }
+.row{
+    width:100%;
+    display: block;
+}
+.row > .latest-new-container{
+    margin-top: 20px;
+}
+
+.row > .latest-new-container > .img-prop{
+    min-height: 200px;
+}
+
+.news-container{
+    width: 100%;
+}
 /* stylying for tablets and laptops -- bigger screens */
 @media only screen 
-  and (min-device-width: 768px)
+and (min-device-width: 1200px)
   and (-webkit-min-device-pixel-ratio: 1) {
 
     .grid-1{
         display: flex;
         min-height: 400px;
-
     }
 
     .grid-1 > div{
@@ -792,6 +792,32 @@ main{
             float: right;
             padding-right: 20px;
         }
+
+        .news-container{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .row{
+            display: flex;
+        }
+
+        .row > .latest-new-container{
+            width: 33%;
+            padding: 20px;
+        }
+
+        .font-size-h3{
+            font-size: 1.2vw;
+        }
+
+        .latest-news-cnt:after{
+            font-size: 0.9vw;
+        }
+
+        
+
+       
 
 
 }
