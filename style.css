@@ -853,6 +853,12 @@
 .container-height{
     height: 557px;
 }
+.navbar1{
+    display: none;
+}
+.fx-navbar{
+    display: none;
+}
 
 @media (min-width: 768px) {
     .search-navbar{
@@ -1162,9 +1168,16 @@
     height: 672px;
 }
 
+
 }
 @media (min-width: 1440px) {
     .navbar1{
+        display: none;
+    }
+    .fx-navbar{
+        display: none;
+    }
+    .search-navbar{
         display: none;
     }
     .nav-img{
@@ -1182,7 +1195,7 @@
     .left-side-links, .nav-links{
         margin-left: 1%;
     }
-    .fx-navbar{
+    .fx-navbar2{
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
