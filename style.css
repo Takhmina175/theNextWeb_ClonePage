@@ -1183,6 +1183,9 @@
     .nav-img{
         display: none;
     }
+    .z-index{
+        z-index: 3;
+    }
 
     .navbar2{
         height: 43px;
@@ -1321,7 +1324,77 @@
 .cnt {
     font-size: 1.2vw;
 }
- 
+.grid-3 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "h1-title h1-title h1-title h1-title "
+        "r-s-t1 r-s-t1 r-s-t1 r-s-t1"
+        "r-s-t2 r-s-t2 r-s-t2 r-s-t2"
+        "r-s-t3 r-s-t3 r-s-t3 r-s-t3"
+        "t-1 t-1 t-1 t-1";
+    grid-column-gap: 2%;
+}
+.margins-for-container{
+    margin: 0% 5% 6% 5%;
+}
+.container-7 {
+    display: block;
+}
+.font-size-h2 {
+    font-size: 2vw;
+}
+.font-size-h1 {
+    font-size: 3vw;
+}
+.font-tab-h3 {
+    font-size: 1.5vw;
+}
+.font-tab-h6 {
+    font-size: 1vw;
+}
+.font-tab-h4 {
+    font-size: 1.5vw;
+}
+.prg{
+    font-size: 1vw;
+}
+.cont-padding{
+    padding-left: 10px;
+}
+.grid-4-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 29vw);
+    justify-content: center;
+    grid-column-gap: 1%;
+}
+.font-size-h1 {
+    font-size: 2vw;
+}
+.txt-cnt {
+    font-size: 1.8vw;
+}
+.txt-cnt::before {
+    font-size: 1.2vw;
+}
+.txt-cnt::after {
+    font-size: 1vw;
+}
+
+.inline-cnt::before {
+    font-size: 1vw;
+}
+.font-size-p {
+    font-size: 1.4vw;
+}
+.news-line ul {
+    font-size: 1.4vw;
+}
+.container-height {
+    height: 768px;
+}
+
+
+
 
 
 }
