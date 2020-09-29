@@ -1248,6 +1248,80 @@
     position: fixed;
     width: 100%;
   }
+  .grid-1{
+      grid-column-gap: 0.3%;
+      margin: 0 1%;
+  }
+  .wrap-cont {
+    margin-top: 27%;
+    font-size: 1.7vw;
+  }
+.time-published {
+    font-size: 1.3vw;
+}
+.time-published-3::before {
+    font-size: 1vw;
+}
+.coll-1 h3 {
+    font-size: 3.5vw;
+}
+.coll-3-wrap-cont{
+    margin-top: 15%;
+}
+.before-cont::before {
+    font-size: 1.1vw;
+}
+
+  .coll-1{
+    height: 610px;
+  }
+  .coll-2, .coll-3{
+    height: 300px;
+  }
+  .grid-2 {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 0.5fr 1fr;
+    grid-template-areas:
+        "lts-nw lts-nw lts-nw lts-nw"
+        "img1 img2 img3 img4"
+        "text1 text2 text3 text4"
+        "img5 img6 img7 img8"
+        "text5 text6 text7 text8";
+    grid-column-gap: 0.3%;
+    margin: 0% 5% 6% 5%;
+}
+.img-prop {
+    height: 164px;
+    width: 95%;
+}
+.cnt1::after {
+    font-size: 1vw;
+}
+.cnt2::after {
+    font-size: 1.1vw;
+}
+.cnt3::after {
+    font-size: 1.1vw;
+}
+.cnt4::after {
+    font-size: 1.1vw;
+}
+.cnt5::after {
+    font-size: 1.1vw;
+}
+.cnt6::after {
+    font-size: 1.1vw;
+}
+.cnt7::after {
+    font-size: 1.1vw;
+}
+.cnt8::after {
+    font-size: 1.1vw;
+}
+.cnt {
+    font-size: 1.2vw;
+}
+ 
 
 
 }
