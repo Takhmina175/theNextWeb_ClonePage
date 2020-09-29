@@ -1188,9 +1188,16 @@
         height: 43px;
         justify-content: space-between;
         align-items: center;
+        top: 0;
+    }
+    .under-nav-msg{
+        top: 10.2%;
+        justify-content: flex-start;
+        font-size: 0.9vw;
     }
     .right-sd-cont1{
-        font-size: 1vw;
+        font-size: 0.8vw;
+        font-weight: 600;
     }
     .left-side-links, .nav-links{
         margin-left: 1%;
@@ -1198,25 +1205,49 @@
     .fx-navbar2{
         display: grid;
         grid-template-columns: 2fr 1fr;
+        align-items: center;
+        top: 4.9%;
+        background-color: white;
     }
     .srch-btn{
      width: 10%;
      height: 30px; 
      justify-self: start;
      border-left-style: none;
-     border-left-color: none
+     border-left-color: none;
+     font-size: 1.4vw;
     }
    .right-sd-cont2{
     border-left-style: solid;
     border-left-color: #ededed;
     display: flex;
+    padding-top: 3px;
+    justify-content: space-around;
    }
    .get-ticket{
-    height: 41px;
-    width: 25%;
+    height: 38px;
+    width: 20%;
     background-color: #00cccc;
     border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8vw;
    }
+   .right-side-links{
+       margin-right: 1%;
+   }
+   .right-side-links ul li{
+       padding: 7px;
+   }
+  .font-sz{
+      font-size: 1.2vw;
+  }
+  .pos-fixed{
+    position: fixed;
+    width: 100%;
+  }
 
 
 }
