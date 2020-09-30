@@ -4,7 +4,7 @@ TheNextWeb-PageClone
 
 >Responsive web design for mobile, tablet, and laptop devices
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
 Additional description about the project and its features.
 
