@@ -18,6 +18,41 @@ Additional description about the project and its features.
 [Live Demo Link](https://takhmina175.github.io/theNextWeb_ClonePage/)
 
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+
+> Browser
+> Text editor of your choice.
+> npm has to be installed in your system.
+> install linters on your IDE.
+
+### Setup
+
+> `git clone git@github.com:Takhmina175/SmashingMagazine-ClonePage.git`
+
+### Usage
+
+> Open the index.html from your browser.
+
+### Run tests
+
+Run `npx html-validator-cli --quiet --file index.html` to run the validator over the `index.html` file.
+
+The `--quiet` will only list `errors`. If you also want to see the warnings use the `--verbose` flag instead.
+As an alternative, you can also install the `html5validator` using `pip`:
+
+```
+pip install --user html5validator
+html5validator index.html
+```
+
+
+
+
+
 ## Authors
 
 👤 **Author1**
