@@ -863,10 +863,10 @@
     display: none;
 }
 .navbar2{
-    visibility: hidden;
+    display: none;
 }
 .fx-navbar2{
-    visibility: hidden;
+    display: none;
 }
 
 @media (min-width: 768px) {
