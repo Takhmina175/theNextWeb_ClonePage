@@ -859,6 +859,15 @@
 .fx-navbar{
     display: none;
 }
+.laptop-design{
+    display: none;
+}
+.navbar2{
+    visibility: hidden;
+}
+.fx-navbar2{
+    visibility: hidden;
+}
 
 @media (min-width: 768px) {
     .search-navbar{
@@ -1167,7 +1176,9 @@
 .container-height{
     height: 672px;
 }
-
+.laptop-design{
+    display: none;
+}
 
 }
 @media (min-width: 1440px) {
@@ -1192,6 +1203,7 @@
         justify-content: space-between;
         align-items: center;
         top: 0;
+        z-index: 4;
     }
     .under-nav-msg{
         top: 10.2%;
@@ -1291,7 +1303,7 @@
         "img5 img6 img7 img8"
         "text5 text6 text7 text8";
     grid-column-gap: 0.3%;
-    margin: 0% 5% 6% 5%;
+
 }
 .img-prop {
     height: 164px;
@@ -1327,16 +1339,45 @@
 .grid-3 {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
-        "h1-title h1-title h1-title h1-title "
-        "r-s-t1 r-s-t1 r-s-t1 r-s-t1"
-        "r-s-t2 r-s-t2 r-s-t2 r-s-t2"
-        "r-s-t3 r-s-t3 r-s-t3 r-s-t3"
+        "h1-title h1-title r-s-t r-s-t "
         "t-1 t-1 t-1 t-1";
     grid-column-gap: 2%;
+    margin: 0% 5% 1% 5%;
+}
+.laptop-design{
+    grid-area: r-s-t;
+    display: flex;
+    justify-content: flex-end;   
+}
+.laptop-design h3{
+    font-weight: 500;
+    font-size: 0.8vw;
+}
+.aln-sf-start {
+    align-self: flex-start;
+}
+.border{
+    border-right: 1px solid red;
+    height: 27px;
+    
+}
+.padding{
+    padding: 0 13px;
+}
+.right-sd-txt1{
+    display: none;
+    margin: 0 5px;  
+}
+.right-sd-txt2{
+    display: none;  
+}
+.right-sd-txt3{
+    display: none;
 }
 .margins-for-container{
     margin: 0% 5% 6% 5%;
 }
+
 .container-7 {
     display: block;
 }
@@ -1365,7 +1406,8 @@
     grid-template-columns: repeat(auto-fit, 28vw);
     justify-content: center;
     grid-column-gap: 1.8%;
-    grid-row-gap: 0.5vw;
+    grid-row-gap: 2.5vw;
+    margin: 0% 5% 1% 5%;
 }
 .font-size-h1 {
     font-size: 2vw;
@@ -1404,10 +1446,17 @@
         "text9 text10 text11 text12"
         "img13 img14 img15 img16"
         "text13 text14 text15 text16";
-    margin-bottom: 4%;
+    margin: 2% 5% 6% 5%;
 }
 .ft-size-cnt9 {
     font-size: 1vw;
+}
+.centered-img-prop{
+    top: 13%;
+    left: 4%;
+}
+.mrg-bt{
+    margin-bottom: 4%;
 }
 
 
