@@ -1012,9 +1012,8 @@ nav ul li a {
   display: none;
 }
 
-.latest-links-co{
+.latest-links-co {
   display: flex;
- 
 }
 
 /*  tablet styles */
@@ -1117,8 +1116,6 @@ nav ul li a {
     flex-wrap: nowrap;
   }
 
-
-
   .js-cnt-end {
     justify-content: flex-end;
   }
@@ -1162,7 +1159,7 @@ nav ul li a {
     display: flex;
   }
 
-  .navbar2{
+  .navbar2 {
     display: none;
   }
 
