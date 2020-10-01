@@ -124,6 +124,7 @@ nav ul li a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
 }
 
 .coll-1 {
@@ -137,6 +138,7 @@ nav ul li a {
   margin-left: 2%;
   color: white;
   width: 95%;
+  align-self: flex-end;
 }
 
 .time-published::before {
@@ -1010,6 +1012,11 @@ nav ul li a {
   display: none;
 }
 
+.latest-links-co{
+  display: flex;
+ 
+}
+
 /*  tablet styles */
 
 @media (min-width: 768px) {
@@ -1042,7 +1049,7 @@ nav ul li a {
 
   .fx-navbar .nav-img {
     display: block;
-    position: static !important;
+    position: static;
     flex: 1;
     z-index: auto;
     height: 100%;
@@ -1070,11 +1077,11 @@ nav ul li a {
 
   .under-nav-msg {
     margin-top: 0%;
-    position: static !important;
+    position: static;
     justify-content: flex-start;
     order: 3;
     gap: 0;
-    z-index: auto !important;
+    z-index: auto;
     padding: 5px;
     font-size: 12px;
     padding-left: 20%;
@@ -1110,9 +1117,7 @@ nav ul li a {
     flex-wrap: nowrap;
   }
 
-  .navbar2 {
-    display: none !important;
-  }
+
 
   .js-cnt-end {
     justify-content: flex-end;
@@ -1155,6 +1160,10 @@ nav ul li a {
 
   .d-flex {
     display: flex;
+  }
+
+  .navbar2{
+    display: none;
   }
 
   .algn-cent {
@@ -1463,8 +1472,8 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     top: 0;
-    z-index: auto !important;
-    position: static !important;
+    z-index: auto;
+    position: static;
     flex: 3;
   }
 
@@ -1473,7 +1482,7 @@ nav ul li a {
     justify-content: flex-start;
     font-size: 0.9vw;
     position: static;
-    z-index: auto !important;
+    z-index: auto;
     order: 3;
   }
 
@@ -1488,7 +1497,7 @@ nav ul li a {
     top: 4.9%;
     background-color: white;
     position: static;
-    z-index: auto !important;
+    z-index: auto;
     flex: 3;
   }
 
