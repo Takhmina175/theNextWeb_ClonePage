@@ -1015,7 +1015,8 @@ nav ul li a {
 .latest-links-co {
   display: flex;
 }
-.laptop-design-forTab{
+
+.laptop-design-forTab {
   display: none;
 }
 
@@ -1076,7 +1077,8 @@ nav ul li a {
     display: flex;
     flex-direction: column;
   }
-  .navbar1-height{
+
+  .navbar1-height {
     height: 27px;
   }
 
@@ -1160,7 +1162,8 @@ nav ul li a {
   .ft-size-16 {
     font-size: 16px;
   }
-  .ft-size-13{
+
+  .ft-size-13 {
     font-size: 13px;
   }
 
@@ -1334,16 +1337,18 @@ nav ul li a {
     grid-column-gap: 2%;
     margin-bottom: 6%;
   }
-  .laptop-design-forTab{
+
+  .laptop-design-forTab {
     grid-area: lp-design;
     display: flex;
     justify-content: flex-start;
     padding-bottom: 10px;
-    
   }
-  .laptop-design-forTab h3{
+
+  .laptop-design-forTab h3 {
     font-weight: 300;
   }
+
   .border-forTab {
     border-right: 1px solid red;
     height: 15px;
@@ -1352,9 +1357,11 @@ nav ul li a {
   .padding-forTab-1 {
     padding: 0 13px 0 0;
   }
+
   .padding-forTab-2 {
     padding: 0 13px;
   }
+
   .right-sd-txt1 {
     display: none;
     margin: 0 5px;
@@ -1701,7 +1708,6 @@ nav ul li a {
     padding: 0 13px;
   }
 
-
   .right-sd-txt1 {
     display: none;
     margin: 0 5px;
@@ -1815,7 +1821,8 @@ nav ul li a {
   .mrg-bt {
     margin-bottom: 4%;
   }
-  .laptop-design-forTab{
+
+  .laptop-design-forTab {
     display: none;
   }
 }
