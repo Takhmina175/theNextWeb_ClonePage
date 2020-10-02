@@ -138,7 +138,7 @@ nav ul li a {
   margin-left: 2%;
   color: white;
   width: 95%;
-  align-self: flex-end;
+  align-self: center;
 }
 
 .time-published::before {
@@ -1045,9 +1045,6 @@ nav ul li a {
     justify-content: space-between;
   }
 
-  .mt-5 {
-    margin-top: 100px;
-  }
 
   .fx-navbar .nav-img {
     display: block;
@@ -1224,7 +1221,7 @@ nav ul li a {
   .coll-1 {
     width: 134%;
     height: 332px;
-    background-position: left;
+    background-position: right;
     font-size: 1rem;
   }
 
@@ -1434,7 +1431,7 @@ nav ul li a {
   }
 
   .container-height {
-    height: 672px;
+    height: 702px;
   }
 
   .laptop-design {
