@@ -718,7 +718,12 @@ nav ul li a {
 }
 
 .media li {
-  margin-right: 2%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5%;
 }
 
 .news-line ul li {
@@ -973,7 +978,7 @@ nav ul li a {
 
 .ft-cont {
   justify-content: center;
-  width: 207px;
+  width: 80%;
 }
 
 .align-item-center {
