@@ -95,6 +95,8 @@ nav ul li a {
   flex: 1;
 }
 
+
+
 .nav-img {
   background-image: url(images/tnw.png);
   height: 35px;
@@ -1015,7 +1017,12 @@ nav ul li a {
 .latest-links-co {
   display: flex;
 }
-.laptop-design-forTab{
+
+.laptop-design-forTab {
+  display: none;
+}
+
+.navbar-desktop{
   display: none;
 }
 
@@ -1046,6 +1053,8 @@ nav ul li a {
   }
 
 
+  
+
   .fx-navbar .nav-img {
     display: block;
     position: static;
@@ -1073,7 +1082,8 @@ nav ul li a {
     display: flex;
     flex-direction: column;
   }
-  .navbar1-height{
+
+  .navbar1-height {
     height: 27px;
   }
 
@@ -1157,7 +1167,8 @@ nav ul li a {
   .ft-size-16 {
     font-size: 16px;
   }
-  .ft-size-13{
+
+  .ft-size-13 {
     font-size: 13px;
   }
 
@@ -1331,16 +1342,18 @@ nav ul li a {
     grid-column-gap: 2%;
     margin-bottom: 6%;
   }
-  .laptop-design-forTab{
+
+  .laptop-design-forTab {
     grid-area: lp-design;
     display: flex;
     justify-content: flex-start;
     padding-bottom: 10px;
-    
   }
-  .laptop-design-forTab h3{
+
+  .laptop-design-forTab h3 {
     font-weight: 300;
   }
+
   .border-forTab {
     border-right: 1px solid red;
     height: 15px;
@@ -1349,9 +1362,11 @@ nav ul li a {
   .padding-forTab-1 {
     padding: 0 13px 0 0;
   }
+
   .padding-forTab-2 {
     padding: 0 13px;
   }
+
   .right-sd-txt1 {
     display: none;
     margin: 0 5px;
@@ -1523,6 +1538,49 @@ nav ul li a {
   .right-sd-cont1 {
     font-weight: 600;
   }
+
+  .navbar-desktop{
+    display: flex;
+  }
+
+  .navbar-desktop > .links-a{
+    display: flex;
+    flex: 1;
+  }
+
+  .navbar-desktop > .links-a > ul{
+    display: flex;
+    color: #fff;
+    min-height: 40px;
+    flex: 1;
+  }
+
+  .navbar-desktop > .links-a > ul > li{
+    display: flex;
+    color: #fff;
+    flex: 1;
+    height: 100%;
+  }
+
+  .navbar-desktop > .links-a > ul > li > ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navbar-desktop > .links-a > ul > li > ul.right-pull{
+    justify-content: flex-end;
+    flex: 1;
+  }
+
+
+  .navbar-desktop > .links-a > ul > li > ul > li{
+    width: auto;
+    padding-left: 10px;
+
+  }
+
+
 
   .fx-navbar2 {
     display: grid;
@@ -1698,7 +1756,6 @@ nav ul li a {
     padding: 0 13px;
   }
 
-
   .right-sd-txt1 {
     display: none;
     margin: 0 5px;
@@ -1812,7 +1869,10 @@ nav ul li a {
   .mrg-bt {
     margin-bottom: 4%;
   }
-  .laptop-design-forTab{
+
+  .laptop-design-forTab {
     display: none;
   }
+
+  
 }
