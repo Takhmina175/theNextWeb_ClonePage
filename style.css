@@ -1037,8 +1037,6 @@ nav ul li a {
   visibility: hidden;
 }
 
-/*  tablet styles */
-
 @media (min-width: 768px) {
   body {
     position: relative;
@@ -1465,8 +1463,6 @@ nav ul li a {
     visibility: hidden;
   }
 }
-
-/*  wide screen styles */
 
 @media (min-width: 1024px) {
   body {
