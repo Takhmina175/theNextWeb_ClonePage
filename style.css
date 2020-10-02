@@ -95,6 +95,8 @@ nav ul li a {
   flex: 1;
 }
 
+
+
 .nav-img {
   background-image: url(images/tnw.png);
   height: 35px;
@@ -1020,6 +1022,10 @@ nav ul li a {
   display: none;
 }
 
+.navbar-desktop{
+  display: none;
+}
+
 /*  tablet styles */
 
 @media (min-width: 768px) {
@@ -1049,6 +1055,8 @@ nav ul li a {
   .mt-5 {
     margin-top: 100px;
   }
+
+  
 
   .fx-navbar .nav-img {
     display: block;
@@ -1534,6 +1542,49 @@ nav ul li a {
     font-weight: 600;
   }
 
+  .navbar-desktop{
+    display: flex;
+  }
+
+  .navbar-desktop > .links-a{
+    display: flex;
+    flex: 1;
+  }
+
+  .navbar-desktop > .links-a > ul{
+    display: flex;
+    color: #fff;
+    min-height: 40px;
+    flex: 1;
+  }
+
+  .navbar-desktop > .links-a > ul > li{
+    display: flex;
+    color: #fff;
+    flex: 1;
+    height: 100%;
+  }
+
+  .navbar-desktop > .links-a > ul > li > ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .navbar-desktop > .links-a > ul > li > ul.right-pull{
+    justify-content: flex-end;
+    flex: 1;
+  }
+
+
+  .navbar-desktop > .links-a > ul > li > ul > li{
+    width: auto;
+    padding-left: 10px;
+
+  }
+
+
+
   .fx-navbar2 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -1825,4 +1876,6 @@ nav ul li a {
   .laptop-design-forTab {
     display: none;
   }
+
+  
 }
