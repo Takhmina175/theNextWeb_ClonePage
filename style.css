@@ -129,8 +129,7 @@ nav ul li a {
 
 .coll-1 {
   grid-area: img1;
-  background: linear-gradient(0deg, rgba(235, 47, 6,1) 0%, rgba(101, 96, 96, 0.5) 100%), url(images/col-1.png);
-  
+  background: linear-gradient(0deg, rgba(235, 47, 6, 1) 0%, rgba(101, 96, 96, 0.5) 100%), url(images/col-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -725,7 +724,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 5%;
+  margin-left: 1%;
 }
 
 .news-line ul li {
@@ -1033,7 +1032,8 @@ nav ul li a {
 .navbar-desktop {
   display: none;
 }
-.lg-img{
+
+.lg-img {
   visibility: hidden;
 }
 
@@ -1461,13 +1461,12 @@ nav ul li a {
   .laptop-design {
     display: none;
   }
-  .lg-img{
+
+  .lg-img {
     visibility: hidden;
   }
 }
-.media li{
-  margin-left: 1%;
-}
+
 
 /*  wide screen styles */
 
@@ -1475,9 +1474,10 @@ nav ul li a {
   body {
     font-size: 14px;
   }
+
   .ft-size-13 {
     font-size: 16px;
-}
+  }
 
   header {
     position: fixed;
@@ -1488,6 +1488,7 @@ nav ul li a {
   .navbar1 {
     display: none;
   }
+
   .navbar1-height {
     height: 35px;
   }
@@ -1504,6 +1505,10 @@ nav ul li a {
   .fx-navbar2 .nav-links {
     display: flex;
     align-items: center;
+  }
+
+  .media li {
+    margin-left: 1%;
   }
 
   .right-side-links ul li {
@@ -1662,13 +1667,15 @@ nav ul li a {
     margin-top: 27%;
     font-size: 1.7vw;
   }
-  .lg-img{
+
+  .lg-img {
     visibility: visible;
     position: absolute;
     top: 50px;
     left: 0;
     opacity: 0.3;
   }
+
   .time-published {
     font-size: 1.3vw;
     gap: 1%;
@@ -1898,10 +1905,8 @@ nav ul li a {
   .laptop-design-forTab {
     display: none;
   }
-  .media li{
-    margin-left: 1%;
-  }
-  .ft-font-size{
+
+  .ft-font-size {
     font-size: 0.9vw;
   }
 }
