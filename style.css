@@ -218,6 +218,7 @@ nav ul li a {
 .lts-news {
   grid-area: lts-nw;
 }
+
 .font-size-h2 {
   font-size: 1.2rem;
 }
@@ -448,10 +449,6 @@ nav ul li a {
   font-size: 1.5rem;
 }
 
-.font-size-h2 {
-  font-size: 1.5rem;
-}
-
 .font-size-h3 {
   font-size: 0.8rem;
 }
@@ -564,7 +561,8 @@ nav ul li a {
 .news-line {
   grid-area: inline-cnt1;
 }
-.news-line ul{
+
+.news-line ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -589,7 +587,8 @@ nav ul li a {
 .news-line2 {
   grid-area: inline-cnt2;
 }
-.news-linne ul{
+
+.news-linne ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -1151,6 +1150,7 @@ nav ul li a {
 
   .js-cnt-end {
     justify-content: flex-end;
+    padding-right: 4%;
   }
 
   .js-cnt-center {
@@ -1271,7 +1271,8 @@ nav ul li a {
     margin-top: 24%;
     font-size: 0.9rem;
   }
-  .wrap-cont-mrg-top{
+
+  .wrap-cont-mrg-top {
     margin-top: 40%;
   }
 
@@ -1446,7 +1447,8 @@ nav ul li a {
   .txt-cnt::after {
     font-size: 2vw;
   }
-  .media{
+
+  .media {
     font-size: 1.5vw;
   }
 
@@ -1479,7 +1481,6 @@ nav ul li a {
   .laptop-design {
     display: none;
   }
-
 }
 
 @media (min-width: 1024px) {
@@ -1819,10 +1820,6 @@ nav ul li a {
 
   .container-7 {
     display: block;
-  }
-
-  .font-size-h2 {
-    font-size: 2vw;
   }
 
   .font-size-h1 {
