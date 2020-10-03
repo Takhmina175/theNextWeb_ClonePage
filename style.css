@@ -5,7 +5,6 @@
 }
 
 body {
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 14px;
   position: relative;
 }
@@ -31,10 +30,6 @@ nav ul li ul {
   display: flex;
   flex-direction: column;
   flex: 1;
-}
-
-.mt-5 {
-  margin-top: 50px;
 }
 
 li {
@@ -129,7 +124,7 @@ nav ul li a {
 
 .coll-1 {
   grid-area: img1;
-  background: linear-gradient(0deg, rgba(235, 47, 6, 1) 0%, rgba(101, 96, 96, 0.5) 100%), url(images/col-1.png);
+  background: linear-gradient(0deg, rgba(235, 47, 6, 0.6) 0%, rgba(101, 96, 96, 0.5) 100%), url(images/col-1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
@@ -222,6 +217,9 @@ nav ul li a {
 
 .lts-news {
   grid-area: lts-nw;
+}
+.font-size-h2 {
+  font-size: 1.2rem;
 }
 
 .lts-news-2 {
@@ -447,7 +445,7 @@ nav ul li a {
 }
 
 .font-size-h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .font-size-h2 {
@@ -455,7 +453,7 @@ nav ul li a {
 }
 
 .font-size-h3 {
-  font-size: 1rem;
+  font-size: 0.8rem;
 }
 
 .font-size-h6 {
@@ -556,7 +554,7 @@ nav ul li a {
 
 .bck-img-1 {
   grid-area: back-img1;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(101, 96, 96, 0.6) 100%), url(images/lts-5.png);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(101, 96, 96, 0.6) 0%), url(images/lts-5.png);
 }
 
 .lts-content1 {
@@ -565,6 +563,14 @@ nav ul li a {
 
 .news-line {
   grid-area: inline-cnt1;
+}
+.news-line ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 89%;
+  margin-left: 5%;
+  line-height: 1.6;
 }
 
 .h2-position {
@@ -582,6 +588,14 @@ nav ul li a {
 
 .news-line2 {
   grid-area: inline-cnt2;
+}
+.news-linne ul{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 89%;
+  margin-left: 5%;
+  line-height: 1.6;
 }
 
 .h3-position {
@@ -742,14 +756,14 @@ nav ul li a {
 .txt-cnt::before {
   content: "most popular";
   display: block;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
 }
 
 .txt-cnt::after {
   content: "Satoshi Nakaboto 4 hours ago";
   display: block;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 
 .side-img-1 {
@@ -834,7 +848,7 @@ nav ul li a {
 }
 
 .ft-size-cnt9 {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
 }
 
 .cnt9 h4::before {
@@ -950,7 +964,7 @@ nav ul li a {
   justify-content: center;
   list-style-type: none;
   margin-top: 5%;
-  font-size: 1.5vw;
+  font-size: 3.5vw;
 }
 
 .links {
@@ -994,7 +1008,7 @@ nav ul li a {
 }
 
 .container-height {
-  height: 557px;
+  height: 624px;
 }
 
 .navbar1 {
@@ -1034,7 +1048,7 @@ nav ul li a {
 }
 
 .lg-img {
-  visibility: hidden;
+  display: none;
 }
 
 @media (min-width: 768px) {
@@ -1148,6 +1162,7 @@ nav ul li a {
     margin: 0 2%;
     font-size: 2.6vw;
     row-gap: 10%;
+    line-height: 1;
   }
 
   nav ul li:hover ul {
@@ -1255,6 +1270,9 @@ nav ul li a {
   .wrap-cont {
     margin-top: 24%;
     font-size: 0.9rem;
+  }
+  .wrap-cont-mrg-top{
+    margin-top: 40%;
   }
 
   .coll-2 {
@@ -1428,6 +1446,9 @@ nav ul li a {
   .txt-cnt::after {
     font-size: 2vw;
   }
+  .media{
+    font-size: 1.5vw;
+  }
 
   .txt-cnt::before {
     font-size: 1.7vw;
@@ -1459,9 +1480,6 @@ nav ul li a {
     display: none;
   }
 
-  .lg-img {
-    visibility: hidden;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1530,10 +1548,6 @@ nav ul li a {
 
   .z-index {
     z-index: 3;
-  }
-
-  .mt-5 {
-    margin-top: 100px;
   }
 
   .navbar2 {
@@ -1663,7 +1677,7 @@ nav ul li a {
   }
 
   .lg-img {
-    visibility: visible;
+    display: block;
     position: absolute;
     top: 50px;
     left: 0;
@@ -1672,7 +1686,7 @@ nav ul li a {
 
   .time-published {
     font-size: 1.3vw;
-    gap: 1%;
+    gap: 0.5%;
   }
 
   .time-published-3::before {
@@ -1864,7 +1878,7 @@ nav ul li a {
   }
 
   .container-height {
-    height: 787px;
+    height: 750px;
   }
 
   .bck-img-prop {
