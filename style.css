@@ -112,14 +112,16 @@ nav ul li a {
   grid-row-gap: 1%;
   margin-bottom: 7%;
   margin-top: 69px;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .col-1-2-3 {
-  height: 160px;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
+  height: 26vh;
 }
 
 .coll-1 {
@@ -128,15 +130,17 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  height: 25vh;
 }
 
 .wrap-cont {
   display: inline-grid;
-  margin-top: 18%;
+  margin-top: 9%;
   margin-left: 2%;
   color: white;
-  width: 95%;
   align-self: center;
+  height: 13vh;
+  width: 90vw;
 }
 
 .time-published::before {
@@ -159,6 +163,7 @@ nav ul li a {
   text-transform: uppercase;
   display: block;
   font-weight: 400;
+  font-size: 0.8rem;
 }
 
 .coll-2 {
@@ -191,10 +196,11 @@ nav ul li a {
     "img7 text7"
     "img8 text8";
   grid-row-gap: 1%;
+  height: 102vh;
 }
 
 .grid-2-margins {
-  margin: 3% 2% 29% 2%;
+  margin: 3% 2% 18% 2%;
 }
 
 .container-1 {
@@ -409,8 +415,9 @@ nav ul li a {
     "r-s-t2"
     "r-s-t3"
     "t-1";
-  margin: 0% 3% 28% 3%;
+  margin: 0% 3% 8% 3%;
   grid-row-gap: 1%;
+  height: 179vh;
 }
 
 .txt-decoration {
@@ -556,6 +563,7 @@ nav ul li a {
 
 .lts-content1 {
   grid-area: lst-news1;
+  justify-content: space-between;
 }
 
 .news-line {
@@ -568,7 +576,7 @@ nav ul li a {
   flex-direction: column;
   width: 89%;
   margin-left: 5%;
-  line-height: 1.6;
+  line-height: 4.5vh;
   color: #aaa;
 }
 
@@ -583,6 +591,7 @@ nav ul li a {
 
 .lts-content2 {
   grid-area: lst-news2;
+  justify-content: space-between;
 }
 
 .news-line2 {
@@ -600,6 +609,7 @@ nav ul li a {
 
 .lts-content3 {
   grid-area: lst-news3;
+  justify-content: space-between;
 }
 
 .news-line3 {
@@ -617,6 +627,7 @@ nav ul li a {
 
 .lts-content4 {
   grid-area: lst-news4;
+  justify-content: space-between;
 }
 
 .news-line4 {
@@ -634,6 +645,7 @@ nav ul li a {
 
 .lts-content5 {
   grid-area: lst-news5;
+  justify-content: space-between;
 }
 
 .news-line5 {
@@ -651,6 +663,7 @@ nav ul li a {
 
 .lts-content6 {
   grid-area: lst-news6;
+  justify-content: space-between;
 }
 
 .news-line6 {
@@ -668,6 +681,7 @@ nav ul li a {
 
 .lts-content7 {
   grid-area: lst-news7;
+  justify-content: space-between;
 }
 
 .news-line7 {
@@ -685,6 +699,7 @@ nav ul li a {
 
 .lts-content8 {
   grid-area: lst-news8;
+  justify-content: space-between;
 }
 
 .news-line8 {
@@ -702,6 +717,7 @@ nav ul li a {
 
 .lts-content9 {
   grid-area: lst-news9;
+  justify-content: space-between;
 }
 
 .news-line9 {
@@ -709,7 +725,7 @@ nav ul li a {
 }
 
 .bck-img-prop {
-  height: 300px;
+  height: 193px;
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -719,8 +735,7 @@ nav ul li a {
 }
 
 .lts-padd-gap {
-  padding: 2%;
-  gap: 5px;
+  padding: 0.7% 0 2% 0;
 }
 
 .media li {
@@ -795,10 +810,11 @@ nav ul li a {
 }
 
 .side-img-prop {
-  height: 70px;
-  width: 46%;
+  height: 13vh;
+  width: 100px;
   background-size: cover;
-  background-position: right;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .news-line a {
@@ -956,7 +972,7 @@ nav ul li a {
   justify-content: center;
   list-style-type: none;
   margin-top: 5%;
-  font-size: 3.5vw;
+  font-size: 2.5vw;
 }
 
 .links {
@@ -1000,7 +1016,7 @@ nav ul li a {
 }
 
 .container-height {
-  height: 645px;
+  margin-bottom: 7%;
 }
 
 .navbar1 {
@@ -1130,6 +1146,11 @@ nav ul li a {
     padding: 0 5px;
   }
 
+  .right-side-links > ul > li {
+    padding: 7px;
+  }
+
+
   .fx-navbar .nav-links li {
     display: flex;
     font-size: 11px;
@@ -1150,12 +1171,15 @@ nav ul li a {
     justify-content: center;
   }
 
+  .navbar2,
+  .right-side-links ul {
+    display: flex;
+  }
+
   .news-line ul {
     display: inline-grid;
     margin: 0 2%;
     font-size: 1.9vw;
-    row-gap: 10%;
-    line-height: 1.5;
   }
 
   nav ul li:hover ul {
@@ -1230,10 +1254,6 @@ nav ul li a {
     font-size: 0.7rem;
   }
 
-  .left-side-links {
-    margin-right: 1%;
-  }
-
   .grid-1 {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
@@ -1241,11 +1261,13 @@ nav ul li a {
       "img1 img3";
     grid-column-gap: 0.5%;
     margin-bottom: 0;
+    margin-left: 1%;
+    margin-right: 1%;
   }
 
   .coll-1 {
-    width: 134%;
-    height: 332px;
+    width: 67vw;
+    height: 53vh;
     background-position: right;
     font-size: 1rem;
   }
@@ -1261,27 +1283,28 @@ nav ul li a {
   }
 
   .wrap-cont {
-    margin-top: 24%;
     font-size: 0.9rem;
+    height: 10vh;
+    width: 30vw;
+    margin-top: 4%;
   }
 
   .wrap-cont-mrg-top {
-    margin-top: 40%;
+    margin-top: 33%;
+    width: 53vw;
   }
 
   .coll-2 {
-    width: 65%;
     justify-self: end;
     font-size: 0.8rem;
   }
 
   .coll-3 {
-    width: 65%;
     justify-self: end;
   }
 
   .coll-3 h3 {
-    font-size: 2.4vw;
+    font-size: 2vw;
     font-weight: 600;
   }
 
@@ -1308,7 +1331,7 @@ nav ul li a {
       "text4 text5 text6"
       "img7 img8 ."
       "text7 text8 .";
-    margin-bottom: 12%;
+    margin-bottom: 5%;
   }
 
   .img-prop {
@@ -1359,6 +1382,7 @@ nav ul li a {
       "t-1 t-1 t-1";
     grid-column-gap: 2%;
     margin-bottom: 6%;
+    height: 46vh;
   }
 
   .laptop-design-forTab {
@@ -1434,11 +1458,11 @@ nav ul li a {
   }
 
   .txt-cnt {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   .txt-cnt::after {
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
 
   .media {
@@ -1446,7 +1470,7 @@ nav ul li a {
   }
 
   .txt-cnt::before {
-    font-size: 1.7vw;
+    font-size: 1.4vw;
   }
 
   .grid-2-duplicate {
@@ -1468,7 +1492,7 @@ nav ul li a {
   }
 
   .container-height {
-    height: 706px;
+    height: 670px;
   }
 
   .laptop-design {
@@ -1508,11 +1532,6 @@ nav ul li a {
     display: none;
   }
 
-  .left-side-links,
-  .nav-links {
-    margin-left: 1%;
-  }
-
   .fx-navbar2 .nav-links {
     display: flex;
     align-items: center;
@@ -1520,10 +1539,6 @@ nav ul li a {
 
   .media li {
     margin-left: 1%;
-  }
-
-  .right-side-links ul li {
-    padding: 7px;
   }
 
   .fx-navbar2 .nav-links li {
@@ -1575,7 +1590,6 @@ nav ul li a {
 
   .news-line ul {
     font-size: 1.4vw;
-    line-height: 1.3;
   }
 
   .navbar-desktop {
@@ -1643,14 +1657,15 @@ nav ul li a {
   }
 
   .get-ticket {
-    height: 38px;
+    height: 5vh;
     width: 20%;
     background-color: #0cc;
     border-radius: 5px;
     text-align: center;
     padding-top: 10px;
     color: white;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 0.8vw;
   }
 
   .right-side-links {
@@ -1662,7 +1677,7 @@ nav ul li a {
   }
 
   .font-size-h2-lp {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
   }
 
   .pos-fixed {
@@ -1676,7 +1691,7 @@ nav ul li a {
   }
 
   .wrap-cont {
-    margin-top: 27%;
+    margin-top: 17%;
     font-size: 1.7vw;
   }
 
@@ -1698,7 +1713,7 @@ nav ul li a {
   }
 
   .coll-1 h3 {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
 
   .coll-3-wrap-cont {
@@ -1710,12 +1725,13 @@ nav ul li a {
   }
 
   .coll-1 {
-    height: 610px;
+    height: 68vh;
+    width: 69vw;
   }
 
   .coll-2,
   .coll-3 {
-    height: 300px;
+    height: 33vh;
   }
 
   .grid-2 {
@@ -1728,6 +1744,7 @@ nav ul li a {
       "img5 img6 img7 img8"
       "text5 text6 text7 text8";
     grid-column-gap: 0.3%;
+    height: 79vh;
   }
 
   .img-prop {
@@ -1878,11 +1895,11 @@ nav ul li a {
   }
 
   .container-height {
-    height: 950px;
+    height: 606px;
   }
 
   .bck-img-prop {
-    height: 299px;
+    height: 203px;
   }
 
   .grid-2-duplicate {
