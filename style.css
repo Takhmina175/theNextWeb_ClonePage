@@ -1150,7 +1150,6 @@ nav ul li a {
     padding: 7px;
   }
 
-
   .fx-navbar .nav-links li {
     display: flex;
     font-size: 11px;
@@ -1933,5 +1932,44 @@ nav ul li a {
 
   .ft-font-size {
     font-size: 0.9vw;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-height {
+    height: 100vh;
+  }
+
+  .img-prop {
+    height: 22vh;
+  }
+
+  .font-size-h1 {
+    font-size: 2.5vw;
+    margin-bottom: 2%;
+  }
+
+  .bck-img-prop {
+    height: 30vh;
+  }
+
+  .side-img-prop {
+    width: 223px;
+  }
+
+  .logo-img {
+    font-size: 1.1vw;
+  }
+
+  .fx-navbar2 .nav-links li {
+    font-size: 1vw;
+  }
+
+  .ft-size-13 {
+    font-size: 15px;
+  }
+
+  .navbar1-height {
+    height: 3vh;
   }
 }
