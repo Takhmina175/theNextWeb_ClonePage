@@ -1,43 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+TheNextWeb-PageClone
 
-> One paragraph statement about the project.
+>Responsive web design for mobile, tablet, and laptop devices
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://takhmina175.github.io/theNextWeb_ClonePage/)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+> Browser
+> Text editor of your choice.
+> npm has to be installed in your system.
+> install linters on your IDE.
+
 ### Setup
 
-### Install
+> `git clone git@github.com:Takhmina175/SmashingMagazine-ClonePage.git`
 
 ### Usage
 
+> Open the index.html from your browser.
+
 ### Run tests
 
-### Deployment
+Run `npx html-validator-cli --quiet --file index.html` to run the validator over the `index.html` file.
+
+The `--quiet` will only list `errors`. If you also want to see the warnings use the `--verbose` flag instead.
+As an alternative, you can also install the `html5validator` using `pip`:
+
+```
+pip install --user html5validator
+html5validator index.html
+```
+
+
 
 
 
@@ -45,32 +57,18 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@Takhmina175](https://github.com/Takhmina175)
+- Twitter: [@Takhmina](https://twitter.com/Takhmin73630110)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/takhmina-makhkamova-7628136b/)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@okusarobert](https://github.com/okusarobert)
+- Twitter: [@okusa_robert](https://twitter.com/okusa_robert)
 
-## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
