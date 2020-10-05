@@ -196,11 +196,11 @@ nav ul li a {
     "img7 text7"
     "img8 text8";
   grid-row-gap: 1%;
-  height: 102vh;
+  height: 84vh;
 }
 
 .grid-2-margins {
-  margin: 3% 2% 18% 2%;
+  margin: 3% 2% 5% 2%;
 }
 
 .container-1 {
@@ -245,7 +245,7 @@ nav ul li a {
 }
 
 .img-prop {
-  height: 70px;
+  padding-top: 53%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -417,7 +417,7 @@ nav ul li a {
     "t-1";
   margin: 0% 3% 8% 3%;
   grid-row-gap: 1%;
-  height: 179vh;
+  height: 146vh;
 }
 
 .txt-decoration {
@@ -725,7 +725,7 @@ nav ul li a {
 }
 
 .bck-img-prop {
-  height: 193px;
+  padding-top: 28%;
   width: 100%;
   display: flex;
   align-items: flex-end;
@@ -1321,7 +1321,6 @@ nav ul li a {
 
   .grid-2 {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 1fr;
     grid-template-areas:
       "lts-nw lts-nw lts-nw"
       "img1 img2 img3"
@@ -1331,10 +1330,6 @@ nav ul li a {
       "img7 img8 ."
       "text7 text8 .";
     margin-bottom: 5%;
-  }
-
-  .img-prop {
-    height: 116px;
   }
 
   .cnt {
@@ -1380,7 +1375,7 @@ nav ul li a {
       "lp-design lp-design lp-design"
       "t-1 t-1 t-1";
     grid-column-gap: 2%;
-    margin-bottom: 6%;
+    margin-bottom: 2%;
     height: 46vh;
   }
 
@@ -1443,7 +1438,7 @@ nav ul li a {
 
   .grid-4-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 45vw);
+    grid-template-columns: repeat(auto-fit, 44vw);
     justify-content: center;
     grid-column-gap: 2%;
   }
@@ -1488,10 +1483,6 @@ nav ul li a {
 
   .ft-size-cnt9 {
     font-size: 1.7vw;
-  }
-
-  .container-height {
-    height: 670px;
   }
 
   .laptop-design {
@@ -1735,7 +1726,7 @@ nav ul li a {
 
   .grid-2 {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: auto;
     grid-template-areas:
       "lts-nw lts-nw lts-nw lts-nw"
       "img1 img2 img3 img4"
@@ -1747,7 +1738,6 @@ nav ul li a {
   }
 
   .img-prop {
-    height: 164px;
     width: 95%;
   }
 
@@ -1789,11 +1779,13 @@ nav ul li a {
 
   .grid-3 {
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
     grid-template-areas:
       "h1-title h1-title r-s-t r-s-t "
       "t-1 t-1 t-1 t-1";
     grid-column-gap: 2%;
-    margin: 0% 5% 1% 5%;
+    margin: 0% 5% 6% 5%;
+    height: 26vh;
   }
 
   .laptop-design {
@@ -1834,7 +1826,7 @@ nav ul li a {
   }
 
   .margins-for-container {
-    margin: 0% 5% 6% 5%;
+    margin: 0% 5% 0% 5%;
   }
 
   .container-7 {
@@ -1893,17 +1885,13 @@ nav ul li a {
     font-size: 1.4vw;
   }
 
-  .container-height {
-    height: 606px;
-  }
-
   .bck-img-prop {
     height: 203px;
   }
 
   .grid-2-duplicate {
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 0.5fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
     grid-template-areas:
       "lts-nw-2 lts-nw-2 lts-nw-2 lts-nw-2"
       "img9 img10 img11 img12"
@@ -1940,8 +1928,17 @@ nav ul li a {
     height: 100vh;
   }
 
-  .img-prop {
-    height: 22vh;
+  .grid-2 {
+    grid-template-rows: auto;
+  }
+
+  .margins-for-container {
+    margin: 0% 5% 2% 5%;
+  }
+
+  .grid-3 {
+    height: 0%;
+    margin: 0% 5% 6% 5%;
   }
 
   .font-size-h1 {
