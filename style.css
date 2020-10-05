@@ -969,6 +969,7 @@ nav ul li a {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr 1fr;
+  margin-top: 9%;
 }
 
 .ft-container {
