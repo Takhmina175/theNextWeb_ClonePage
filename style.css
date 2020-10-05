@@ -134,23 +134,29 @@ nav ul li a {
 }
 
 .wrap-cont {
-  display: inline-grid;
-  margin-top: 9%;
+  /* display: inline-grid; */
+
+  /* margin-top: 9%; */
   margin-left: 2%;
   color: white;
-  align-self: center;
-  height: 13vh;
-  width: 90vw;
+  align-self: flex-end;
+
+  /* height: 13vh; */
+  width: 51vw;
 }
 
 .time-published::before {
   content: "by Thomas Macaulay";
   display: block;
+  color: #9c9b9a;
+  font-weight: 700;
 }
 
 .time-published {
   display: flex;
   gap: 2%;
+  color: #9c9b9a;
+  font-size: inherit;
 }
 
 .time-published-3::before {
@@ -169,6 +175,10 @@ nav ul li a {
 .coll-2 {
   grid-area: img2;
   background-image: url(images/col-2.png);
+}
+
+.lg-img > h3 {
+  font-size: 2.8vw;
 }
 
 .coll-2 > .wrap-cont > h3 {
@@ -1265,7 +1275,7 @@ nav ul li a {
   }
 
   .coll-1 {
-    width: 67vw;
+    width: 65vw;
     height: 53vh;
     background-position: right;
     font-size: 1rem;
@@ -1283,7 +1293,6 @@ nav ul li a {
 
   .wrap-cont {
     font-size: 0.9rem;
-    height: 10vh;
     width: 30vw;
     margin-top: 4%;
   }
@@ -1716,7 +1725,7 @@ nav ul li a {
 
   .coll-1 {
     height: 68vh;
-    width: 69vw;
+    width: 67vw;
   }
 
   .coll-2,
